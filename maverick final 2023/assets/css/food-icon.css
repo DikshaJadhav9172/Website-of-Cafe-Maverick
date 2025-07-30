@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'Food-Icon';
+  src:  url('../fonts/Food-Icon485b.eot?1fs62r');
+  src:  url('../fonts/Food-Icon485b.eot?1fs62r#iefix') format('embedded-opentype'),
+    url('../fonts/Food-Icon485b.ttf?1fs62r') format('truetype'),
+    url('../fonts/Food-Icon485b.woff?1fs62r') format('woff'),
+    url('../fonts/Food-Icon485b.svg?1fs62r#Food-Icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.fi {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Food-Icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fi-beer:before {
+  content: "\e900";
+}
+.fi-breakfast:before {
+  content: "\e901";
+}
+.fi-burger:before {
+  content: "\e902";
+}
+.fi-burger-1:before {
+  content: "\e903";
+}
+.fi-burger-2:before {
+  content: "\e904";
+}
+.fi-cheese:before {
+  content: "\e905";
+}
+.fi-chef-hat:before {
+  content: "\e906";
+}
+.fi-chicken-leg:before {
+  content: "\e907";
+}
+.fi-chicken-leg-1:before {
+  content: "\e908";
+}
+.fi-chinese-food:before {
+  content: "\e909";
+}
+.fi-chips:before {
+  content: "\e90a";
+}
+.fi-coffee:before {
+  content: "\e90b";
+}
+.fi-coffee-cup:before {
+  content: "\e90c";
+}
+.fi-coffee-machine:before {
+  content: "\e90d";
+}
+.fi-cola:before {
+  content: "\e90e";
+}
+.fi-cola-1:before {
+  content: "\e90f";
+}
+.fi-croissant:before {
+  content: "\e910";
+}
+.fi-delivery:before {
+  content: "\e911";
+}
+.fi-donut:before {
+  content: "\e912";
+}
+.fi-food-truck:before {
+  content: "\e913";
+}
+.fi-fork:before {
+  content: "\e914";
+}
+.fi-french-fries:before {
+  content: "\e915";
+}
+.fi-fried-chicken:before {
+  content: "\e916";
+}
+.fi-fried-egg:before {
+  content: "\e917";
+}
+.fi-fried-potatoes:before {
+  content: "\e918";
+}
+.fi-hot-dog:before {
+  content: "\e919";
+}
+.fi-hot-dog-1:before {
+  content: "\e91a";
+}
+.fi-ice-cream:before {
+  content: "\e91b";
+}
+.fi-ice-cream-1:before {
+  content: "\e91c";
+}
+.fi-kebab:before {
+  content: "\e91d";
+}
+.fi-meat:before {
+  content: "\e91e";
+}
+.fi-menu:before {
+  content: "\e91f";
+}
+.fi-milkshake:before {
+  content: "\e920";
+}
+.fi-noodles:before {
+  content: "\e921";
+}
+.fi-package:before {
+  content: "\e922";
+}
+.fi-pitcher:before {
+  content: "\e923";
+}
+.fi-pizza-slice:before {
+  content: "\e924";
+}
+.fi-popcorn:before {
+  content: "\e925";
+}
+.fi-rice:before {
+  content: "\e926";
+}
+.fi-sauces:before {
+  content: "\e927";
+}
+.fi-sausage:before {
+  content: "\e928";
+}
+.fi-serving-dish:before {
+  content: "\e929";
+}
+.fi-soda:before {
+  content: "\e92a";
+}
+.fi-taco:before {
+  content: "\e92b";
+}
+.fi-take-away:before {
+  content: "\e92c";
+}
+.fi-tea:before {
+  content: "\e92d";
+}
+.fi-tomato-sauce:before {
+  content: "\e92e";
+}
+.fi-waffle:before {
+  content: "\e92f";
+}
+.fi-waiter:before {
+  content: "\e930";
+}
+.fi-waiter-1:before {
+  content: "\e931";
+}

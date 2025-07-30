@@ -1,0 +1,160 @@
+/*======================================================
+    Media Query
+=======================================================*/
+/* max-width 1024px */
+@media (max-width: 1200px) {
+    .hero-section .hero-img{
+        right: -280px;
+    }
+}
+
+/* max-width 992px */
+@media (max-width: 992px) {
+    .padding{ padding: 60px 0; }
+    .sm-padding{ padding: 15px; }
+    p br{ display: none; }
+    span br{ display: none; }
+    .default-btn{ padding: 0 30px; }
+    .section-heading h2{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .section-heading br{display: inherit;}
+    .contact-section .contact-form .form-group{margin-bottom: 0;}
+    .contact-section .contact-form .form-control.massege {
+        height: inherit;
+        margin: 15px 0 20px;
+    }
+    .footer-section .col-lg-3:nth-child(2) .footer-widget{padding-left: 0;}
+    .content-info h3{ font-size: 16px; }
+    .product-thumb .order-btn{ padding: 0 20px;}
+    .content-section{ padding: 60px 0; }
+    .content-img-holder > img {
+        transform: scale(1.3) translateY(25px) translateX(90px);
+    }
+    .content-img-holder .sale{ left: 10px; }
+    .banner-content h2,
+    .content-info h2,
+    .delivery-info h2,
+    .about-info h2{ font-size: 32px; }
+    .banner-content h3{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .footer-widget,
+    .booking-form{ margin: 0; }
+    
+    .hero-content p br{ display: block; }
+    .hero-section .hero-img{
+        width: 75%;
+        right: -20%;
+        top: 50px;
+    }
+    .hero-section{ overflow: hidden; }
+    .hero-content h1{font-size: 52px; }
+    .hero-img .sale{display: none; }
+    
+    .delivery-girl{ display: none ; }
+    .content-section.delivery .content-info{ text-align: center; }
+    .content-section.delivery .order-content{ justify-content: center; }
+    .contact-form{ padding: 0; }
+    .about-section.inner{ margin-top: 0; }
+    .content-img img{margin-top: 50px;}
+    .primary-header .header-logo{max-width: 135px; }
+    .cart-header{display: none;}
+    
+}
+
+/* max-width 768px */
+@media all and (max-width: 767px) {
+    .padding{ padding: 60px 0; }
+    .xs-padding{ padding: 15px; }
+    p br{ display: none; }
+    .about-info{
+        text-align: center;
+        margin-top: 40px; 
+    }
+    .content-img-holder > img {
+        transform: scale(1.3) translateY(60px) translateX(0);
+    }
+    .content-info{ text-align: center; }
+    .check-list li{ justify-content: center; }
+    .order-content{ margin-bottom: 40px; }
+    .banner-wrapper > div,
+    .banner-wrapper .row > div:first-child{padding-bottom: 10px;}
+    .banner-wrapper .row > div:last-child {
+        margin-top: 10px;
+    }
+    .hero-section{
+        height: auto;
+        padding: 100px 0 50px 0;
+    }
+    .hero-section .hero-img{
+        position: relative;
+        width: 100%;
+        height: 250px;
+        top: 0;
+        right: auto;
+    }
+    .hero-content{ text-align: center; }
+    .hero-content h1{
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .hero-content p br{ display: none; } 
+    
+    .contact-form{ margin-top: 40px; }
+    .booking-form .booking-form-group,
+    .contact-form-group{
+        grid-template-columns: 1fr;
+    }
+    .booking-form .booking-form-group > div:last-child,
+    .contact-form-group .form-field.message {
+        grid-column-end: inherit;
+    }
+    .content-section.delivery .content-info {
+        padding: 0 0;
+        margin-top: 20px;
+    }
+    .page-header .bg-shape{ bottom: -2px; }
+    .page-header-content p br{display: none;}
+    .accordion-button{ font-size: 16px; }
+    .primary-header .header-logo {
+        max-width: 120px;
+    }
+    .heading-wrap{display: block;}
+    .food-details-thumb{margin: 0;}
+    .product-description .nav.tab-navigation{ gap: 15px; }
+    .tab-content .tab-pane.description{ padding: 20px }
+    .review .comment-list > li,
+    .review .comment-list{
+        grid-template-columns: 1fr;
+    }
+    .checkout-form-wrap{ padding: 30px 15px; }
+    .main-slider .slider-caption.big{ justify-content: center; line-height: 38px; }
+}
+
+/* max-width 580px */
+@media all and (max-width: 580px) {
+    #scrollup {
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+/* max-width 420px */
+@media all and (max-width: 420px) {
+    .section-heading p br{ display: none; }
+    .about-info h2,
+    .content-info h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .food-menu-filter li{ margin: 5px;}
+}
+
+/* max-width 320px */
+@media (max-width: 320px) {
+}
+
+
